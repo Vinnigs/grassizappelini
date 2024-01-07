@@ -1,0 +1,83 @@
+********************************************************************************
+DUPLICATOR-LITE PACKAGE-LOG: 15/11/2023 23:08
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.5.7
+WORDPRESS:	6.4.1
+PHP INFO:	8.1.10 | SAPI: apache2handler
+SERVER:		Apache/2.4.54 (Win64) OpenSSL/1.1.1q PHP/8.1.10 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 4294967296 (512M default) 
+MEMORY STACK: 58MB
+[CTRL DUP ARCIVE] PACKAGE AS NEW ID 13 SAVED | STATUS:0
+[DUP ARCHIVE] BUILDING DATABASE
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   PHP(query limit - 100)
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Not Supported
+TABLES: total:24 | filtered:0 | create:24
+FILTERED: []
+SQL CREATED: 20231030_gzgrassizappelini_bd957a429a07225a5312_20231115230747_database.sql
+SQL FILE SIZE: 1.42MB (1493532)
+SQL FILE TIME: 2023-11-15 23:08:19
+SQL RUNTIME: 2.20 sec.
+[DUP ARCHIVE] VALIDATING DATABASE
+[DUP ARCHIVE] DONE DATABASE
+
+********************************************************************************
+ARCHIVE Type=DUP Mode=DupArchive
+********************************************************************************
+ARCHIVE DIR:  C:/laragon/www/grassizappelini
+ARCHIVE FILE: 20231030_gzgrassizappelini_bd957a429a07225a5312_20231115230747_archive.daf
+FILTERS: *OFF*
+DIRS:
+	not set
+FILES:
+	not set
+EXTS:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	121.89MB
+STATS:	Dirs 887 | Files 6,210 | Total 7,097
+[DUP ARCHIVE] DONE ARCHIVE
+[DUP ARCHIVE] DONE ARCHIVE
+[DUP ARCHIVE] DONE ARCHIVE
+[DUP ARCHIVE] DONE ARCHIVE
+[DUP ARCHIVE] DONE ARCHIVE
+[DUP ARCHIVE] DONE ARCHIVE
+[DUP ARCHIVE] DONE ARCHIVE
+[DUP ARCHIVE] DONE ARCHIVE
+[DUP ARCHIVE] DONE ARCHIVE
+[DUP ARCHIVE] DONE ARCHIVE
+[DUP ARCHIVE] DONE ARCHIVE
+[DUP ARCHIVE] DONE ARCHIVE
+[DUP ARCHIVE] DONE ARCHIVE
+building installer
+[DUP ARCHIVE] DONE ARCHIVE
+COMPRESSED SIZE: 65.69MB
+ARCHIVE RUNTIME: 148.24 sec.
+MEMORY STACK: 64MB
+CREATE WARNINGS: No warnings.
+VALIDATION WARNINGS: No warnings.
+[DUP ARCHIVE] DONE ARCHIVE
+[DUP ARCHIVE] HAS COMPLETED CLOSING
+[DUP ARCHIVE] DUP ARCHIVE INTEGRITY CHECK
+
+********************************************************************************
+INTEGRITY CHECKS:
+********************************************************************************
+SQL FILE: 1.42MB
+INSTALLER FILE: 94.82KB
+ARCHIVE FILE: 65.69MB 
+EXPECTED FILE/DIRECTORY COUNT: 7,836
+ACTUAL FILE/DIRECTORY COUNT: 7,837
+
+********************************************************************************
+RECORD ID:[13]
+TOTAL PROCESS RUNTIME: 148.49 sec.
+PEAK PHP MEMORY USED: 64MB
+DONE PROCESSING => 20231030_gzgrassizappelini 2023-11-15 23:10:45
+

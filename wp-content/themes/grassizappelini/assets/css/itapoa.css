@@ -1,0 +1,349 @@
+@import url('main.css');
+
+/* STYLES */
+body{
+    position: relative;
+}
+
+a.active{
+    color: var(--cor-primaria);
+}
+
+a.contato{
+    display: flex;
+    height: 40px;
+    width: 160px;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--cor-primaria);
+    color: var(--cor-terciaria);
+    font-weight: 600;
+    border-radius: 2px;
+}
+a.contato:hover{
+    opacity: .8;
+    transition: 0.2s ease-in-out;
+}
+a:not(.active):hover{
+    opacity: .8;
+    transition: 0.2s ease-in-out;
+}
+a{
+    font-size: 16px;
+}
+/* ~~~~ */
+
+
+
+
+/* Seção BANNER */
+section.banner{
+    padding-top: 80px;
+    position: relative;
+    height: 330px;
+    background-image: url(../img/tresPedras.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    border-bottom: 2px solid #B08046;
+}
+section.banner::after{
+    position: absolute;
+    top: 0;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, #010109b1 0%, transparent 50%)
+}
+section.banner .container{
+    position: relative;
+    z-index: 2;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+section.banner .text{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding-left: 14px;
+
+    border-left: 1px solid #B08046;
+}
+section.banner .text h3{
+    color: white;
+    font-weight: 600;
+}
+section.banner .text p{
+    color: white;
+}
+/* ~~~~ */
+
+
+
+/* Seção SOBRE ITAPOÁ */
+section.sobreItapoa{
+    margin-top: 64px;
+}
+section.sobreItapoa .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 64px;
+}
+
+
+section.sobreItapoa p.sobre{
+    color: black;
+    width: 800px;
+    text-align: justify;
+}
+
+section.sobreItapoa .cont-card{
+    display: flex;
+    gap: 32px;
+}
+
+section.sobreItapoa .card{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #d4d4d4;
+    width: 33.3%;
+
+    border-radius: 100px;
+}
+section.sobreItapoa .card img{
+    width: 100%;
+    height: 165px;
+    min-height: 165px;
+    object-fit: cover;
+
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+section.sobreItapoa .card p{
+    background-color: white;
+    padding: 24px 32px;
+    height: 100%;
+
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+/* ~~~~ */
+
+
+
+/* Seção PONTOS TURÍSTICOS */
+section.pontosTuristicos{
+    padding-top: 140px;
+    padding-bottom: 120px;
+    position: relative;
+    /* margin-top: 120px; */
+    overflow: hidden;
+}
+
+
+    /* Detalhe BG Ondas */
+    section.pontosTuristicos .detail-bg{
+        position: absolute;
+        width: 100%;
+        top: 0;
+        z-index: -2;
+    }
+    /* ~~~~ */
+
+section.pontosTuristicos .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo{
+    text-align: center;
+}
+.titulo p.subtitulo{
+    margin-bottom: 8px;
+    color: var(--cor-primaria);
+    font-weight: 600;
+}
+.titulo h3{
+    margin-bottom: 24px;
+}
+
+
+section.pontosTuristicos .cont-cards{
+    margin-top: 40px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+}
+
+section.pontosTuristicos .cont-cards .card{
+    border-bottom: 1px solid #B08046;
+}
+
+section.pontosTuristicos .cont-cards .card img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+section.pontosTuristicos .cont-cards .card p.titulo{
+    margin-top: 32px;
+    font-weight: 600;
+}
+section.pontosTuristicos .cont-cards .card p.descricao{
+    margin-top: 24px;
+    margin-bottom: 24px;
+    opacity: .7;
+}
+/* ~~~~ */
+
+
+
+/* Seção CTA */
+section.cta{
+    border-top: 2px solid #B08046;
+    border-bottom: 2px solid #B08046;
+    background-color: var(--background-secundario);
+
+    padding: 80px 0;
+}
+
+section.cta .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section.cta h3{
+    font-size: 24px;
+    margin-bottom: 14px;
+    color: white;
+}
+section.cta p{
+    margin-bottom: 40px;
+    color: white;
+    opacity: .7;
+    font-weight: 300;
+    width: 500px;
+    text-align: center;
+}
+
+section.cta .btn-cta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 56px;
+    width: 200px;
+    background-color: #B08046;
+    color: black;
+    font-weight: 700;
+    border-radius: 4px;
+}
+/* ~~~~ */
+
+
+
+/* FOOTER */
+
+
+
+
+
+
+
+/* RESPONSIVIDADE */
+@media screen and (max-width: 1320px){
+    .container{
+        max-width: 1100px;
+    }
+    section.sobreItapoa .card{
+        width: 314px;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .container{
+        width: 90% !important;
+    }
+
+    section.sobreItapoa .cont-card{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 64px;
+    }
+
+    footer.pages .container .conteudo{
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+    footer.pages .container .conteudo .menu{
+        width: 50% !important;
+    }
+
+    footer.pages .creditos{
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 8px;
+    }
+}
+
+
+@media screen and (max-width: 850px){
+    header nav{
+        display: none;
+    }
+
+    section.sobreItapoa p.sobre{
+        width: 95%;
+    }
+
+    section.pontosTuristicos .container{
+        width: 100% !important;
+    }
+    section.pontosTuristicos .cont-cards{
+        width: 100%;
+    }
+
+    section.pontosTuristicos .cont-cards .card img{
+        height: 400px;
+    }
+
+    section.pontosTuristicos .cont-cards .card p{
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+
+@media screen and (max-width: 500px){
+
+    p{
+        font-size: 14px;
+    }
+
+
+    section.pontosTuristicos .detail-bg{
+        top: 150px;
+        /* height: 100%; */
+    }
+
+    section.cta p{
+        width: 90% !important;
+    }
+
+    footer.pages .container .conteudo .menu{
+        width: 90% !important;
+    }
+    
+}
+/* ~~~~ */
